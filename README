@@ -1,0 +1,85 @@
+<h1 align="center">📄 Simple CV Website – Mohamed Kamel</h1>
+
+<p align="center">
+  A clean and responsive personal CV website built using pure HTML, CSS, and Font Awesome.  
+  The design focuses on simplicity, readability, and modern layout structure.
+</p>
+
+<hr/>
+
+<h2>📌 Project Overview</h2>
+<p>
+  This project is a simple and elegant <strong>CV (Resume) website</strong> created to showcase personal information, skills, education, and experience.  
+  The layout is crafted using modern CSS techniques with a responsive design that adapts to different screen sizes.
+</p>
+
+<h2>✨ Features</h2>
+<ul>
+  <li>Fully responsive layout</li>
+  <li>Clean and modern minimalist design</li>
+  <li>Profile section with personal information</li>
+  <li>Skills & language progress bars</li>
+  <li>Education and professional experience sections</li>
+  <li>Custom background shapes using CSS clip-path</li>
+  <li>Google Fonts integration</li>
+  <li>Font Awesome icons for contact info</li>
+</ul>
+
+<h2>🛠️ Technologies Used</h2>
+<ul>
+  <li><strong>HTML5</strong></li>
+  <li><strong>CSS3</strong> (Flexbox, clip-path, responsive design)</li>
+  <li><strong>Font Awesome</strong> (icons)</li>
+  <li><strong>Google Fonts</strong></li>
+</ul>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+project/
+│── index.html
+│
+├── CSS/
+│   └── style.css
+│
+└── Images/
+    ├── icon-cv.png
+    └── my-img.jpg
+</pre>
+
+<h2>🚀 How to Use</h2>
+<ol>
+  <li>Download or clone the repository:</li>
+  <pre>git clone &lt;repository-link&gt;</pre>
+
+  <li>Navigate to the project:</li>
+  <pre>cd project</pre>
+
+  <li>Open <code>index.html</code> in your browser.</li>
+</ol>
+
+<h2>🖼️ Screenshot (Add Yours)</h2>
+<p>Upload a screenshot of your CV website and insert it here in Markdown or HTML:</p>
+<pre>
+&lt;img src="Images/screenshot.png" width="600"/&gt;
+</pre>
+
+<h2>🔗 Live Demo</h2>
+<p>
+  You can view this CV live here:<br/>
+  <a href="https://cv-mohamed-atlam.netlify.app/" target="_blank">
+    https://cv-mohamed-atlam.netlify.app/
+  </a>
+</p>
+
+<h2>📜 License</h2>
+<p>
+  This project is created for personal and educational use.  
+  Feel free to customize it for your own CV or portfolio.
+</p>
+
+<h2>🤝 Contributing</h2>
+<p>
+  Suggestions and improvements are welcome!  
+  You can open an issue or submit a pull request.
+</p>

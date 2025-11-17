@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* General Style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather" , sans-serif;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+
+.container {
+    width: 55%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 2% auto;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        box-shadow: none;
+        margin: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1260px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* ======== Behind Color ======== */
+.behind-top {
+    height: 50vh;
+    width: 100%;
+    background-color: #ecdccf;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 0);
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+}
+
+/* ======== Header ======== */
+header {
+    text-align: center;
+    padding-top: 10px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* ======== My info ======== */
+.info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.info img {
+    width: 250px;
+    height: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.info-contact {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.info-contact i {
+    margin-right: 8px;
+}
+
+.info-contact .email {
+    margin: 15px 0;
+}
+
+.about-me {
+    width: 32%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.about-me p {
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 480px) {
+    .info {
+        top: auto;
+        left: 0;
+    }
+
+    .info img {
+        width: 180px;
+        height: 160px;
+    }
+
+    .about-me {
+        width: 100%;
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+    .info {
+        top: auto;
+        left: 0;
+        right: 0;
+        justify-content: space-evenly;
+    }
+
+    .info-contact {
+        margin: 0;
+        width: auto;
+    }
+
+    .info img {
+        width: 220px;
+        height: 180px;
+    }
+
+    .about-me {
+        width: 100%;
+        padding-top: 200px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1460px) {
+    .info {
+        right: -35px;
+    }
+}
+
+/* ======== CV Main ======== */
+.cv-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cv-info h2 {
+    text-transform: uppercase;
+}
+
+.cv-info * {
+    text-transform: capitalize;
+}
+
+/* Left CV */
+.more-cv-info {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 30%;
+}
+
+.skills ul {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.languages {
+    margin-top: 50px;
+}
+
+.languages p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.progress {
+    position: relative;
+    width: 80%;
+    height: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.progress .percentage {
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    top: 0;
+    background-color: #ecdccf;
+}
+
+.arabic .percentage {
+    width: 95%;
+}
+
+.english .percentage {
+    width: 75%;
+}
+
+/* Right CV */
+.main-cv-info {
+    width: 60%;
+    padding-right: 30px;
+}
+
+.main-cv-info div h3 {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+.main-cv-info div span {
+    color: grey;
+    font-size: small;
+    display: block;
+    margin: 5px 0;
+}
+
+.main-cv-info div p {
+    font-size: 0.9rem;
+}
+
+.experience {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 480px) {
+    .more-cv-info {
+        width: 25%;
+        padding-left: 10px;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    .main-cv-info {
+        width: 50%;
+    }
+
+    .experience {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .more-cv-info {
+        padding-left: 10px;
+    }
+
+    .experience {
+        margin-bottom: 20px;
+    }
+}
+
+/* ======== Behind Color Bottom ======== */
+.behind-bottom {
+    width: 15%;
+    height: 10vh;
+    background-color: #ecdccf;
+    border-bottom-left-radius: 10px;
+    clip-path: polygon(0 0, 0 0, 100% 100%, 0 100%);
+}
